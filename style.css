@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+.section-principal{
+    height: 100vh;
+    background: url(fundo.jpg) no-repeat 50%;
+    background-size: cover;
+    height: 100vh;
+    background-color: black;
+
+}
+
+
+
+.btn-principal{
+    width: 200px;
+    background-color: transparent;
+    height: 55px;
+    border-radius: 50px;
+    border: solid #fff 3px;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-principal:hover{
+    background-color: green;
+    color: white;
+}
